@@ -1,0 +1,20 @@
+<import src="./books-icon/books-icon.wxml"/>
+<import src="./books-list/books-list.wxml"/>
+<view class="book_bg">                    
+  <van-search
+    value="{{ value }}"
+    placeholder="请输入搜索关键词"
+    show-action
+    bind:search="onSearch"
+    bind:focus="onFocus"
+  />
+  <text wx:if="{{booksNub!=''}}" style="font-size:40rpx;padding:10rpx">相关图书 {{booksNub}}本图书</text>
+  <view class="icon" wx:if="{{searchBooks.length==0}}">
+   <template is="icon"></template>
+  </view>
+  <view  wx:if="{{searchBooks.length>0}}">
+    <view wx:for="{{searchBooks}}" wx:for-item="searchBooks" wx:key="{{index}}">
+      <template is="list" data="{{...searchBooks}}"></template>
+    </view>
+  </view>
+</view>

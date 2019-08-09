@@ -1,0 +1,8 @@
+<template name="icon">
+<view class="icon_loc">
+  <image src="../../images/book/book.png" class="icon_img"></image>
+  <view class="icon_text icon_title">豆瓣图书</view>
+  <view class="icon_text">Designed By ZZ</view>
+</view>
+ 
+</template>

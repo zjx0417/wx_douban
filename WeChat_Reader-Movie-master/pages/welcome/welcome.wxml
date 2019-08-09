@@ -1,0 +1,10 @@
+<view class="container">
+   <image src="/images/header.jpg" class="user-header"></image>
+   <text class="user-name">Hello，阿障@</text>
+   <view class="moto-container" bindtap="onTap">
+       <text class="moto">开启小程序之旅</text>
+   </view>
+   <view class="moto-container" catchtap="scanQRCode" style="margin-top:30rpx;">
+       <text class="moto">扫一扫</text>
+   </view>
+</view>

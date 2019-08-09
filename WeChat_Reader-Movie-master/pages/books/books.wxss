@@ -1,0 +1,11 @@
+/* pages/books/books.wxss */
+@import "./books-list/books-list.wxss";
+@import "./books-icon/books-icon.wxss";
+
+.book_bg{
+  background:#f3f1ed;
+  
+}
+.icon{
+  text-align: center;
+}

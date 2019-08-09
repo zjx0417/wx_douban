@@ -1,0 +1,20 @@
+/* pages/books/books-icon/books-icon.wxss */
+
+.icon_loc{
+  margin:0 auto;
+  padding-bottom:600rpx;
+  padding-top:200rpx;
+}
+.icon_text{
+ color:#aaa3a3;
+ font-size:30rpx;
+}
+.icon_title{
+  font-size:50rpx;
+  margin-bottom:6rpx;
+  font-weight:bold;
+}
+.icon_img{
+  width:300rpx;
+  height:300rpx;
+}

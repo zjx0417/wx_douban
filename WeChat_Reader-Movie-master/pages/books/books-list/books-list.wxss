@@ -1,0 +1,38 @@
+/* pages/books/books-list/books-list.wxss */
+.books{
+  display:flex;
+  padding:10rpx;
+  margin:10rpx;
+  border:1rpx solid #999;
+  border-radius:3px;
+  background:floralwhite;
+  box-shadow: 3rpx 3rpx 3rpx 3rpx #999;
+  position:relative;
+}
+.list_img{
+  width:300rpx;
+  height:350rpx;
+}
+.list_right{
+  flex:1;
+  font-size:28rpx;
+  line-height:1.8;
+  padding-left:10px;
+  color:#999
+}
+.list_title{
+  font-weight: bold;
+  font-size:40rpx;
+  color:#666;
+}
+.list_rate{
+  font-size:24rpx;
+}
+.list_shadow{
+  position: absolute;
+  width:360px;
+  height:180px;
+  background:rgba(0,0,0,0);
+  top:0;
+  left:0;
+}
